@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Outfit:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="src/abstracts/variable.css">
+    <link rel="stylesheet" href="src/base/typography.css">
+    <link rel="stylesheet" href="src/layout/header.css">
+    <link rel="stylesheet" href="src/layout/hero.css">
+    <link rel="stylesheet" href="src/component/button.css">
+</head>
+
+<body>
+    <div id="root">
+        <header class="header">
+            <div class="header__container">
+                <div class="container__row">
+                    <div class="row__logo col" style="--col-xl: 2; --col-md: 3; --col-xs: 3;">
+                        <img class="logo" src="assets/Logo.jpg" alt="">
+                    </div>
+                    <nav class="row__nav col" style="--col-xl: 7; --col-md: 5; --col-xs: 5;">
+                        <ul class="nav__menu">
+                            <div class="nav__active"></div>
+                            <li class="menu__item"><a class="item-home" href="">Home</a></li>
+                            <li class="menu__item"><a class="item" href="">Services</a></li>
+                            <li class="menu__item"><a class="item" href="">About</a></li>
+                            <li class="menu__item"><a class="item" href="">Pages</a></li>
+                            <li class="menu__item"><a class="item" href="">Blog</a></li>
+                            <li class="menu__item"><a class="item" href="">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <div class="row__group-right col" style="--col-xl: 3; --col-md: 4; --col-xs: 3;">
+                        <div class="group-right__search-icon">
+                            <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="21" height="21"
+                                viewBox="0 0 21 21" fill="none">
+                                <circle cx="9" cy="8.99997" r="8" stroke="#7B88A8" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M14.5 14.9579L19.5 19.958" stroke="#7B88A8" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="group-right__bag-icon">
+                            <div class="bag-icon__active"></div>
+                            <svg class="bag-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="22"
+                                viewBox="0 0 20 22" fill="none">
+                                <path
+                                    d="M2.53715 9.47134C2.80212 7.48412 4.49726 6 6.50207 6H13.4979C15.5027 6 17.1979 7.48412 17.4628 9.47135L18.3962 16.4713C18.7159 18.8693 16.8504 21 14.4313 21H5.56873C3.14958 21 1.2841 18.8693 1.60382 16.4713L2.53715 9.47134Z"
+                                    stroke="#7B88A8" stroke-width="1.5" />
+                                <path d="M14 8V5C14 2.79086 12.2091 1 10 1V1C7.79086 1 6 2.79086 6 5L6 8"
+                                    stroke="#7B88A8" stroke-width="1.5" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <button class="group-right__button button button-md">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="hero">
+            <div class="hero__content">
+                <h1 class="content__title">Everything we do to make <span class="title__inline">work better.</span></h1>
+                <p class="content__paragraph">Find the right space, services, and support, so your business and
+                    its people can work their way, every day.</p>
+                <div class="content__group">
+                    <button class="content__btn button button-lg">Book Now</button>
+                    <div class="content__play">
+                        <div class="play__icon">
+                            <svg class="icon__background" xmlns="http://www.w3.org/2000/svg" width="92" height="92"
+                                viewBox="0 0 92 92" fill="none">
+                                <g filter="url(#filter0_d_363_2669)">
+                                    <circle cx="46" cy="41" r="26" fill="white" />
+                                </g>
+                                <defs>
+                                    <filter id="filter0_d_363_2669" x="0" y="0" width="92" height="92"
+                                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                        <feOffset dy="5" />
+                                        <feGaussianBlur stdDeviation="10" />
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0.0705882 0 0 0 0 0.00784314 0 0 0 0 0.184314 0 0 0 0.15 0" />
+                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                            result="effect1_dropShadow_363_2669" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_363_2669"
+                                            result="shape" />
+                                    </filter>
+                                </defs>
+                            </svg>
+                            <svg class="icon__icon" xmlns="http://www.w3.org/2000/svg" width="21" height="21"
+                                viewBox="0 0 21 21" fill="none">
+                                <path d="M4.85352 3.13011L16.5202 10.6301L4.85352 18.1301V3.13011Z" fill="#4F77FF" />
+                            </svg>
+                        </div>
+                        <div class="play__text">How it works</div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="hero__images">
+                <div class="images__4">
+                    <div class="4__maskGroup">
+                        <svg class="maskGroup__union" xmlns="http://www.w3.org/2000/svg" width="170" height="170"
+                            viewBox="0 0 170 170" fill="none">
+                            <path
+                                d="M84.8573 170L0.205673 169.794L0.000274658 85.1426C-0.183472 9.42829 91.3207 -28.4908 144.906 25.0942C198.491 78.6793 160.572 170.183 84.8573 170Z"
+                                fill="#5899FD" />
+                        </svg>
+
+                    </div>
+                </div>
+
+            </div> -->
+        </section>
+    </div>
+</body>
+
+</html>

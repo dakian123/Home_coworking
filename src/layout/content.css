@@ -1,0 +1,84 @@
+.content {
+    width: 770px;
+    height: 356.941px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 200px;
+    left: 575px;
+    right: 575px;
+    bottom: 393px;
+}
+
+.content__text {
+    width: 770px;
+    height: 144px;
+    flex-shrink: 0;
+    text-align: center;
+
+}
+
+.content__description {
+    width: 669.302px;
+    height: 47.95px;
+    flex-shrink: 0;
+    text-align: center;
+    margin: auto;
+}
+
+.content-group-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-btn {
+    display: inline-flex;
+    height: 55.941px;
+    padding: 18px 32px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+
+.play {
+    width: 169px;
+    height: 52px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+}
+
+.play__text {
+    width: 110px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-left: 7px;
+}
+
+.play-icon {
+    width: 52px;
+    height: 52px;
+    flex-shrink: 0;
+    position: relative;
+
+}
+
+.play-icon__background {
+    width: 52px;
+    height: 52px;
+    flex-shrink: 0;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.play-icon__icon {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
