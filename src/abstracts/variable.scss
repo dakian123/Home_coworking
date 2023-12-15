@@ -7,7 +7,7 @@
     --primary-color-black: #120F1F;
     --text-color-black: #000;
     --action-purple: #886CFF;
-    --Purple-Gradient: linear-gradient(186deg, #61DCDF 0.38%, #886CFF 100%);
+    --purple-gradient: linear-gradient(186deg, #61DCDF 0.38%, #886CFF 100%);
     --bgbg-light-alt: #F7F5F1;
     --bg-white: #FFFFFF;
     --black-200: #788190;
@@ -19,4 +19,7 @@
     --text-text-white: #FFF;
     --text-text-gray: #E7E5EA;
     --primary-color-black: #120F1F;
+    --grid--container--width: 1300px;
+    --grid: 12;
+    --nav-gap: 30px;
 }

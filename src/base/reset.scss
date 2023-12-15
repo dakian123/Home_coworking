@@ -6,22 +6,6 @@
     box-sizing: border-box;
 }
 
-:root {
-    --grid--container--width: 1300px;
-    --grid: 12;
-    --nav-gap: 30px;
-
-}
-
-.container {
-    max-width: var(--grid--container--width);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    height: 100%;
-}
-
 .background-1 {
     background-color: var(--bgbg-light-alt);
 }
