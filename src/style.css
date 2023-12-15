@@ -195,7 +195,7 @@ body {
 }
 
 .title__inline {
-  background: var(--Purple-Gradient);
+  background: var(--purple-gradient);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -809,7 +809,7 @@ body {
   text-decoration: none;
 }
 
-.item-home {
+.item--highlight {
   color: var(--text-heading);
 }
 
