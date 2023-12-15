@@ -2,15 +2,6 @@
     display: flex;
 }
 
-.container {
-    max-width: var(--grid--container--width);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    height: 100%;
-}
-
 .col {
     width: calc((var(--col-xs) / var(--grid)) * 100%);
 
