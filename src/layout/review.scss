@@ -23,16 +23,17 @@
     flex-direction: column;
 }
 
-.review__card {
+.review__card-item {
     border-radius: 20px;
     background: var(--bg-white);
+    margin: 0 15px;
 }
 
 .review__content {
     padding: 35px;
 }
 
-.review-card__title {
+.review__card-title {
     padding: 10px 0 20px 0;
     color: var(--primary-color-black);
 }
@@ -45,10 +46,12 @@
     padding-top: 30px;
 }
 
-.review__card {
-    margin: 0 15px;
+.review__card-row {
+    margin: 0 -30px;
 }
 
-.review-card__row {
-    margin: 0 -30px;
+.review__card1 {
+    margin: auto;
+    padding-top: 80px;
+    text-align: center;
 }

@@ -8,17 +8,13 @@
     justify-content: center;
 }
 
-.items__group-1 {
+.items__group {
     display: flex;
     align-items: center;
-    padding-right: 30px;
-
 }
 
-.content__group-2 {
-    display: flex;
-    align-items: center;
-
+.items__group-left {
+    padding-right: 30px;
 }
 
 .items__title {
@@ -34,10 +30,22 @@
     padding-left: 30px;
 }
 
-.items-text__title {
+.items__text-title {
     padding-bottom: 10px;
 }
 
-.items-text__description {
+.items__text-description {
     text-align: unset;
+}
+
+.items__icon {
+    position: relative;
+}
+
+.items__icon-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
 }

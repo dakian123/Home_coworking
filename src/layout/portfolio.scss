@@ -13,7 +13,7 @@
     text-align: center;
 }
 
-.portfolio__image {
+.portfolio__group-image {
     display: flex;
     flex-wrap: wrap;
 }
@@ -22,20 +22,20 @@
     padding-bottom: 30px;
 }
 
-.portfolio-image__city {
+.portfolio__image-city {
     color: var(--action-blue);
 }
 
-.portfolio-image__group-1 {
+.portfolio__group-image-1 {
     padding-right: 30px;
     padding-bottom: 50px;
 }
 
-.portfolio-image__group-2 {
+.portfolio__group-image-2 {
     padding-bottom: 50px;
 }
 
-.portfolio-image__group-3 {
+.portfolio__group-image-3 {
     padding-right: 30px;
 }
 

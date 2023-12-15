@@ -9,33 +9,15 @@
     margin: 0 -15px;
 }
 
-.card-1 {
+.card__item {
     margin: 0 15px;
     border-radius: 12px;
     border: 1px solid var(--lines-gray-line);
 }
 
-.card-2 {
-    margin: 0 15px;
-    border-radius: 12px;
-    border: 1px solid var(--lines-gray-line);
-}
-
-.card-3 {
-    margin: 0 15px;
-    border-radius: 12px;
-    border: 1px solid var(--lines-gray-line);
-}
-
-.card-1:hover,
-.card-2:hover,
-.card-3:hover {
+.card__item:hover {
     background: var(--bg-white);
     box-shadow: 0px 20px 50px 0px rgba(79, 119, 255, 0.20);
-}
-
-.card__row {
-    margin: 0 -15px;
 }
 
 .card__img {
