@@ -4,7 +4,7 @@ body {
     font-style: normal;
 }
 
-.display-1 {
+.display--1 {
     color: var(--text-heading);
     text-align: center;
     font-family: var(--font-primary);
@@ -14,7 +14,7 @@ body {
     letter-spacing: -2px;
 }
 
-.display-2 {
+.display--2 {
     color: var(--text-heading);
     font-size: 64px;
     font-weight: 500;
@@ -22,7 +22,7 @@ body {
     letter-spacing: -2px;
 }
 
-.display-3 {
+.display--3 {
     color: var(--text-heading);
     text-align: center;
     font-size: 48px;
@@ -31,7 +31,7 @@ body {
     letter-spacing: -2px;
 }
 
-.headline-1 {
+.headline--1 {
     color: var(--text-heading);
     font-size: 42px;
     font-weight: 500;
@@ -39,7 +39,7 @@ body {
     letter-spacing: -0.84px;
 }
 
-.headline-2 {
+.headline--2 {
     color: var(--text-color-black);
     text-align: center;
     font-size: 36px;
@@ -49,7 +49,7 @@ body {
 }
 
 
-.headline-3 {
+.headline--3 {
     color: var(--text-heading);
     font-size: 22px;
     font-weight: 400;
@@ -57,7 +57,7 @@ body {
     letter-spacing: -1px;
 }
 
-.headline-4 {
+.headline--4 {
     color: var(--text-heading);
     font-size: 18px;
     font-weight: 500;
@@ -65,7 +65,7 @@ body {
     letter-spacing: 0.4px;
 }
 
-.paragraph-1 {
+.paragraph--1 {
     color: var(--text-text);
     text-align: center;
     font-family: var(--font-secondary);
@@ -75,7 +75,7 @@ body {
     letter-spacing: -0.3px;
 }
 
-.paragraph-2 {
+.paragraph--2 {
     color: var(--text-text);
     text-align: center;
     font-family: var(--font-secondary);
@@ -84,7 +84,7 @@ body {
     line-height: 1.6;
 }
 
-.paragraph-3 {
+.paragraph--3 {
     color: var(--text-text-gray);
     font-family: var(--font-secondary);
     font-size: 14px;
