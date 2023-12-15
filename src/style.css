@@ -7,7 +7,7 @@
   --primary-color-black: #120F1F;
   --text-color-black: #000;
   --action-purple: #886CFF;
-  --Purple-Gradient: linear-gradient(186deg, #61DCDF 0.38%, #886CFF 100%);
+  --purple-gradient: linear-gradient(186deg, #61DCDF 0.38%, #886CFF 100%);
   --bgbg-light-alt: #F7F5F1;
   --bg-white: #FFFFFF;
   --black-200: #788190;
@@ -478,7 +478,7 @@ body {
   bottom: 275px;
 }
 
-.img-text__description {
+.img__text-description {
   padding-top: 25px;
   text-align: unset;
 }
@@ -504,7 +504,7 @@ body {
   align-items: center;
 }
 
-.items__group-left {
+.items__group--left {
   padding-right: 30px;
 }
 
@@ -769,7 +769,7 @@ body {
   margin: 0 -30px;
 }
 
-.review__card1 {
+.review__card {
   margin: auto;
   padding-top: 80px;
   text-align: center;
@@ -994,7 +994,7 @@ body {
   padding: 11px 11px 118px 0;
 }
 
-.link {
+.footer__link {
   color: var(--text-text-gray);
   font-size: 14px;
   font-weight: 500;
