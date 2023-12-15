@@ -9,113 +9,589 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Outfit:wght@500&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="src/abstracts/variable.css">
-    <link rel="stylesheet" href="src/base/typography.css">
-    <link rel="stylesheet" href="src/layout/header.css">
-    <link rel="stylesheet" href="src/layout/hero.css">
-    <link rel="stylesheet" href="src/component/button.css">
+    <link rel="stylesheet" href="src/style.css">
 </head>
 
 <body>
     <div id="root">
-        <header class="header">
-            <div class="header__container">
-                <div class="container__row">
-                    <div class="row__logo col" style="--col-xl: 2; --col-md: 3; --col-xs: 3;">
-                        <img class="logo" src="assets/Logo.jpg" alt="">
-                    </div>
-                    <nav class="row__nav col" style="--col-xl: 7; --col-md: 5; --col-xs: 5;">
-                        <ul class="nav__menu">
-                            <div class="nav__active"></div>
-                            <li class="menu__item"><a class="item-home" href="">Home</a></li>
-                            <li class="menu__item"><a class="item" href="">Services</a></li>
-                            <li class="menu__item"><a class="item" href="">About</a></li>
-                            <li class="menu__item"><a class="item" href="">Pages</a></li>
-                            <li class="menu__item"><a class="item" href="">Blog</a></li>
-                            <li class="menu__item"><a class="item" href="">Contact</a></li>
-                        </ul>
-                    </nav>
-                    <div class="row__group-right col" style="--col-xl: 3; --col-md: 4; --col-xs: 3;">
-                        <div class="group-right__search-icon">
-                            <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="21" height="21"
-                                viewBox="0 0 21 21" fill="none">
-                                <circle cx="9" cy="8.99997" r="8" stroke="#7B88A8" stroke-width="1.5"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                                <path d="M14.5 14.9579L19.5 19.958" stroke="#7B88A8" stroke-width="1.5"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
+        <div class="background-1">
+            <header class="header">
+                <div class="container header__container">
+                    <div class="header__row row">
+                        <img class="header__logo" src="assets/Logo.png" alt="">
+                        <nav class="header__nav">
+                            <ul class="nav-list__menu">
+                                <li class="nav-list__item"><a class="item item-home" href="">Home</a></li>
+                                <li class="nav-list__item"><a class="item" href="">Services</a></li>
+                                <li class="nav-list__item"><a class="item" href="">About</a></li>
+                                <li class="nav-list__item"><a class="item" href="">Pages</a></li>
+                                <li class="nav-list__item"><a class="item" href="">Blog</a></li>
+                                <li class="nav-list__item"><a class="item" href="">Contact</a></li>
+                            </ul>
+                        </nav>
+                        <div class="header__group-right">
+                            <img class="header__search-icon" src="assets/Iconex/Search.png" alt="">
+                            <img class="header__bag-icon" src="assets/Iconex/Bag2.png" alt="">
+                            <button class="button button--md">Sign Up</button>
                         </div>
-                        <div class="group-right__bag-icon">
-                            <div class="bag-icon__active"></div>
-                            <svg class="bag-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="22"
-                                viewBox="0 0 20 22" fill="none">
-                                <path
-                                    d="M2.53715 9.47134C2.80212 7.48412 4.49726 6 6.50207 6H13.4979C15.5027 6 17.1979 7.48412 17.4628 9.47135L18.3962 16.4713C18.7159 18.8693 16.8504 21 14.4313 21H5.56873C3.14958 21 1.2841 18.8693 1.60382 16.4713L2.53715 9.47134Z"
-                                    stroke="#7B88A8" stroke-width="1.5" />
-                                <path d="M14 8V5C14 2.79086 12.2091 1 10 1V1C7.79086 1 6 2.79086 6 5L6 8"
-                                    stroke="#7B88A8" stroke-width="1.5" stroke-linecap="round" />
-                            </svg>
-                        </div>
-                        <button class="group-right__button button button-md">Sign Up</button>
                     </div>
                 </div>
-            </div>
-        </header>
-        <section class="hero">
-            <div class="hero__content">
-                <h1 class="content__title">Everything we do to make <span class="title__inline">work better.</span></h1>
-                <p class="content__paragraph">Find the right space, services, and support, so your business and
-                    its people can work their way, every day.</p>
-                <div class="content__group">
-                    <button class="content__btn button button-lg">Book Now</button>
-                    <div class="content__play">
-                        <div class="play__icon">
-                            <svg class="icon__background" xmlns="http://www.w3.org/2000/svg" width="92" height="92"
-                                viewBox="0 0 92 92" fill="none">
-                                <g filter="url(#filter0_d_363_2669)">
-                                    <circle cx="46" cy="41" r="26" fill="white" />
-                                </g>
-                                <defs>
-                                    <filter id="filter0_d_363_2669" x="0" y="0" width="92" height="92"
-                                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                                        <feColorMatrix in="SourceAlpha" type="matrix"
-                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                                        <feOffset dy="5" />
-                                        <feGaussianBlur stdDeviation="10" />
-                                        <feColorMatrix type="matrix"
-                                            values="0 0 0 0 0.0705882 0 0 0 0 0.00784314 0 0 0 0 0.184314 0 0 0 0.15 0" />
-                                        <feBlend mode="normal" in2="BackgroundImageFix"
-                                            result="effect1_dropShadow_363_2669" />
-                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_363_2669"
-                                            result="shape" />
-                                    </filter>
-                                </defs>
-                            </svg>
-                            <svg class="icon__icon" xmlns="http://www.w3.org/2000/svg" width="21" height="21"
-                                viewBox="0 0 21 21" fill="none">
-                                <path d="M4.85352 3.13011L16.5202 10.6301L4.85352 18.1301V3.13011Z" fill="#4F77FF" />
-                            </svg>
+            </header>
+        </div>
+        <div class="background-1">
+            <section class="hero">
+                <div class="container hero__container">
+                    <div class="hero__row row">
+                        <div class="hero__content col" style="--col-xl: 8; --col-md: 8; --col-xs: 8;">
+                            <h1 class="hero__title display-1">Everything we do to make <span class="title__inline">work
+                                    better.</span>
+                            </h1>
+                            <div class="hero__paragraph paragraph-1">
+                                <p>Find the right space, services, and support, so your business and
+                                    its people can work their way, every day.</p>
+                            </div>
+                            <div class="hero__group">
+                                <button class="button button--lg">Book now</button>
+                                <div class="hero__play">
+                                    <img src="assets/Iconex/play.png" alt="">
+                                    <div class="hero-play__text">
+                                        <p>How It Works</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="play__text">How it works</div>
-                    </div>
-                </div>
-            </div>
-            <div class="hero__images">
-                <div class="images__4">
-                    <div class="4__maskGroup">
-                        <svg class="maskGroup__union" xmlns="http://www.w3.org/2000/svg" width="170" height="170"
-                            viewBox="0 0 170 170" fill="none">
-                            <path
-                                d="M84.8573 170L0.205673 169.794L0.000274658 85.1426C-0.183472 9.42829 91.3207 -28.4908 144.906 25.0942C198.491 78.6793 160.572 170.183 84.8573 170Z"
-                                fill="#5899FD" />
-                        </svg>
-                        <img class="maskGroup__image4" src="assets/image4.jpg" alt="">
+                        <div class="hero-group__image-1">
+                            <img class="hero__image-1" src="assets/image1.png" alt="">
+                            <img class="hero__union-1" src="assets/Union1.png" alt="">
+                        </div>
+                        <div class="hero-group__image-2">
+                            <img class="hero__image-2" src="assets/image2.png" alt="">
+                            <img class="hero__union-2" src="assets/Union2.png" alt="">
+                        </div>
+                        <div class="hero-group__image-3">
+                            <img class="hero__union-3" src="assets/Union3.png" alt="">
+                            <img class="hero__image-3" src="assets/image3.png" alt="">
+                        </div>
+                        <div class="hero-group__image-4">
+                            <img class="hero__union-4" src="assets/Union4.png" alt="">
+                            <img class="hero__image-4" src="assets/image4.png" alt="">
+                        </div>
                     </div>
                 </div>
 
-            </div>
-        </section>
+            </section>
+        </div>
+        <div class="background-2">
+            <section class="service">
+                <div class="container service__container">
+                    <div class="service__row row col">
+                        <h2 class="service__tittle display-3 col" style="--col-xl: 7; --col-md: 7; --col-xs: 7;">From a
+                            single
+                            desk to a whole building.
+                            The choice is yours.</h2>
+                        <div class="service__paragraph paragraph-1 col" style="--col-xl: 8; --col-md: 8; --col-xs: 8;">
+                            <p>We provide office space that’s flexible to your needs and fully customisable.</p>
+                        </div>
+                        <div class="card col" style="--col-xl: 12; --col-md: 10; --col-xs: 8;">
+                            <div class="card__row row">
+                                <div class="card-1 col" style="--col-xl: 4; --col-md: 4; --col-xs: 4;">
+                                    <img class="card__icon" src="assets/Icon1.png" alt="">
+                                    <h3 class="card__title headline-3">Private Office</h3>
+                                    <div class="card__description">
+                                        <p>Our coworking spaces are designed with collaboration in mind.</p>
+                                    </div>
+                                </div>
+                                <div class="card-2 col" style="--col-xl: 4; --col-md: 4; --col-xs: 4;">
+                                    <img class="card__icon" src="assets/Icon2.png" alt="">
+                                    <h3 class="card__title headline-3">Dedicated Desk</h3>
+                                    <div class="card__description">
+                                        <p>Our coworking spaces are designed with collaboration in mind.</p>
+                                    </div>
+                                </div>
+                                <div class="card-3 col" style="--col-xl: 4; --col-md: 4; --col-xs: 4;">
+                                    <img class="card__icon" src="assets/Icon3.png" alt="">
+                                    <h3 class="card__title headline-3">Hot Desk</h3>
+                                    <div class="card__description">
+                                        <p>Our coworking spaces are designed with collaboration in mind.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service__button button button--lg col"
+                            style="--col-xl: 2; --col-md: 2; --col-xs: 2;">
+                            View
+                            Our Services</div>
+                    </div>
+                    <img class="service__bg" src="assets/BG.jpg" alt="">
+                </div>
+            </section>
+        </div>
+        <div class="background-2">
+            <section class="logo">
+                <div class="container logo__container">
+                    <h2 class="logo__text headline-2 col" style="--col-xl: 12; --col-md: 12; --col-xs: 12;">Working with
+                        the
+                        most trusted brands in the industry</h2>
+                    <div class="logo__items col" style="--col-xl: 12; --col-md: 12; --col-xs: 12;">
+                        <div class="logo__row row">
+                            <img class="logo__item col" style="--col-xl: 3; --col-md: 3; --col-xs: 3;"
+                                src="assets/google.png" alt="">
+                            <img class="logo__item col" style="--col-xl: 3; --col-md: 3; --col-xs: 3;"
+                                src="assets/netflix.png" alt="">
+                            <img class="logo__item col" style="--col-xl: 3; --col-md: 3; --col-xs: 3;"
+                                src="assets/slack.png" alt="">
+                            <img class="logo__item col" style="--col-xl: 3; --col-md: 3; --col-xs: 3;"
+                                src="assets/intercom.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="background-1">
+            <section class="items">
+                <div class="container items__container">
+                    <div class="items__row row">
+                        <h2 class="items__title headline-2 col" style="--col-xl: 4; --col-md: 4; --col-xs: 4;">
+                            Lockable office space for teams of all sizes
+                        </h2>
+                        <div class="items__content row col" style="--col-xl: 8; --col-md: 8; --col-xs: 8;">
+                            <div class="items__group-1 col" style="--col-xl: 6; --col-md: 6; --col-xs: 6;">
+                                <img class="items__icon" src="assets/item1.png" alt="">
+                                <div class="items__text">
+                                    <h4 class="items-text__title headline-4">
+                                        Office Membership
+                                    </h4>
+                                    <div class="items-text__description paragraph-2">
+                                        <p>Book a day pass for a seat in our coworking spaces with access to amenities.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content__group-2 col" style="--col-xl: 6; --col-md: 6; --col-xs: 6;">
+                                <img class="items__icon" src="assets/item2.png" alt="">
+                                <div class="items__text">
+                                    <h4 class="items-text__title headline-4">
+                                        Meeting Rooms
+                                    </h4>
+                                    <div class="items-text__description paragraph-2">
+                                        <p>Book a day pass for a seat in our coworking spaces with access to amenities.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="background-2">
+            <section class="gallery">
+                <div class="container gallery__container">
+                    <div class="gallery__row row">
+                        <div class="gallery__img col" style="--col-xl: 8; --col-md: 8; --col-xs: 8;">
+                            <div class="img__container col" style="--col-xl: 12; --col-md: 12; --col-xs: 12;">
+                                <img class="img__card col" style="--col-xl: 11; --col-md: 12; --col-xs: 12;"
+                                    src="assets/Img.jpg" alt="">
+                                <div class="img__text col" style="--col-xl: 11; --col-md: 12; --col-xs: 12;">
+                                    <div class="img__heading">
+                                        <h3 class="img__address headline-3">229 West 36th Street. New York, USA.</h3>
+                                        <h3 class="img__price headline-3">From $49/mo</h3>
+                                    </div>
+                                    <div class="img-text__description paragraph-1">
+                                        <p>We’re prioritising the health and safety of all members and employees in our
+                                            spaces
+                                            so you can continue working with peace of mind.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gallery__content col" style="--col-xl: 4; --col-md: 4; --col-xs: 4;">
+                            <h2 class="gallery__heading headline-1 col" style="--col-xl: 8; --col-md: 8; --col-xs: 8;">
+                                Featured
+                                office
+                                space locations</h2>
+                            <div class="gallery__paragraph paragraph-1 col"
+                                style="--col-xl: 10; --col-md: 10; --col-xs: 10;">
+                                <p>Whether you’re an established enterprise or a scaling startup, find an office space
+                                    that's right for you.</p>
+                            </div>
+                            <div class="gallery__link col" style="--col-xl: 12; --col-md: 12; --col-xs: 12;">
+                                <a class="gallery-link__text" href="">View All Buildings <img class="gallery__icon"
+                                        src="assets/Iconex/Right.png" alt=""></a>
+                            </div>
+                            <div class="gallery__arrow">
+                                <a href=""><img class="left__icon" src="assets/Iconex/Left.png" alt=""></a>
+                                <a href=""><img class="right__icon" src="assets/Iconex/Right2.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="gallery__union" src="assets/UnionGallery.png" alt="">
+                </div>
+            </section>
+        </div>
+        <div class="background-1">
+            <section class="about">
+                <div class="container about__container">
+                    <div class="about__row row">
+                        <div class="about__title col" style="--col-xl: 9; --col-md: 9; --col-xs: 9;">
+                            <h2 class="display-3"><span class="title__inline">Office
+                                    space</span>
+                                your way.
+                                Work
+                                wherever business takes you
+                            </h2>
+                            <div class="about__paragraph paragraph-1">
+                                <p>From a single desk to a whole building. The choice is yours</p>
+                            </div>
+                        </div>
+                        <div class="about__box col" style="--col-xl: 5; --col-md: 5; --col-xs: 5;">
+                            <div class="about__content col" style="--col-xl: 12; --col-md: 12; --col-xs: 12;">
+                                <div class="col about-content__top paragraph-1"
+                                    style="--col-xl: 12; --col-md: 12; --col-xs: 12;">
+                                    <p>Office Space</p>
+                                </div>
+                                <h2 class="col about-content__heading headline-2"
+                                    style="--col-xl: 12; --col-md: 10; --col-xs: 10;">
+                                    Flexible workspace designed around your needs
+                                    and comfort</h2>
+                                <div class="col about-content__description paragraph-1"
+                                    style="--col-xl: 12; --col-md: 10; --col-xs: 10;">
+                                    <p>Whether you need a single desk or a whole building, we provide office
+                                        space
+                                        that’s flexible to your needs and fully customisable. Available for a
+                                        day,
+                                        or as long as you need. </p>
+                                </div>
+                                <div class="about__link col" style="--col-xl: 12; --col-md: 12; --col-xs: 12;">
+                                    <a class="about-link__text" href="">Learn More<img class="link-text__icon"
+                                            src="assets/Iconex/rightAbout.png" alt=""></a>
+                                </div>
+                            </div>
+                            <img class="about__indicator" src="assets/Iconex/Indicator.png" alt="">
+                        </div>
+                        <img class="about__image-1" src="assets/imageAbout1.png" alt="">
+                        <img class="about__image-2" src="assets/imageAbout2.png" alt="">
+                        <img class="about__union-1" src="assets/UnionAbout1.png" alt="">
+                        <img class="about__union-2" src="assets/UnionAbout2.png" alt="">
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="background-2">
+            <section class="portfolio">
+                <div class="container portfolio__container">
+                    <div class="portfolio__row row">
+                        <h2 class="portfolio__title headline-1 col" style="--col-xl: 9; --col-md: 9; --col-xs: 9;">
+                            With over <span class="title__inline">3,000 locations</span> globally we have
+                            offices, and
+                            meeting rooms in every
+                            major city
+                        </h2>
+                        <div class="portfolio__image col" style="--col-xl: 12; --col-md: 12; --col-xs: 12;">
+                            <div class="portfolio-image__group-1">
+                                <img class="portfolio__image" src="assets/Img-1.png" alt="">
+                                <h3 class="portfolio-image__city headline-3">New York</h3>
+                            </div>
+                            <div class="portfolio-image__group-2">
+                                <img class="portfolio__image" src="assets/Img-2.png" alt="">
+                                <h3 class="portfolio-image__city headline-3">Miami</h3>
+                            </div>
+                            <div class="portfolio-image__group-3">
+                                <img class="portfolio__image" src="assets/Img-3.png" alt="">
+                                <h3 class="portfolio-image__city headline-3">San Francisco</h3>
+                            </div>
+                            <div class="portfolio-image__group-4">
+                                <img class="portfolio__image" src="assets/Img-4.png" alt="">
+                                <h3 class="portfolio-image__city headline-3">Los Angeles</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="portfolio__union" src="assets/UnionPortfolio.png" alt="">
+                </div>
+            </section>
+        </div>
+        <div class="background-1">
+            <section class="pricing">
+                <div class="container pricing__container">
+                    <div class="pricing__title">
+                        <h3 class="pricing-title__heading display-3">Set up your office, pick a plan later</h3>
+                        <div class="pricing-title__paragraph headline-3">
+                            <p>Try Shopify free for 14 days, no credit card required</p>
+                        </div>
+                    </div>
+                    <div class="pricing__box">
+                        <div class="pricing__tag">
+                            <div class="pricing-tag__item paragraph-1">
+                                <p>Monthly</p>
+                            </div>
+                            <img class="pricing__toggle pricing-tag__item" src="assets/Toggle.png" alt="">
+                            <div class="pricing-tag__item paragraph-1">
+                                <p>Yearly</p>
+                            </div>
+                            <img class="pricing__sale-tag pricing-tag__item" src="assets/Tag.png" alt="">
+                        </div>
+                        <div class="pricing__table row">
+                            <div class="pricing-table__1">
+                                <div class="pricing__price row col" style="--col-xl: 12; --col-md: 12; --col-xs: 12;">
+                                    <h4 class="pricing__type headline-4 col"
+                                        style="--col-xl: 8; --col-md: 8; --col-xs: 8;">
+                                        Freelance
+                                    </h4>
+                                    <h2 class="pricing-price__perMonth headline-2 col"
+                                        style="--col-xl: 8; --col-md: 8; --col-xs: 8;">
+                                        $<span class="pricing__number display-2">19</span>/mo</h2>
+                                    <div class="pricing__paragraph paragraph-2 col"
+                                        style="--col-xl: 7; --col-md: 12; --col-xs: 12;">
+                                        <p>Best for new startups or businesses
+                                            with occasional in-person sales</p>
+                                    </div>
+                                </div>
+                                <div class="pricing__item col" style="--col-xl: 8; --col-md: 12; --col-xs: 12;">
+                                    <h3 class="pricing__benefit headline-3"><img class="pricing__icon-check"
+                                            src="assets/Iconex/CheckedIcon.png" alt="">Fully-furnished and serviced</h3>
+                                    <h3 class="pricing__benefit headline-3"><img class="pricing__icon-check"
+                                            src="assets/Iconex/CheckedIcon.png" alt="">Access
+                                        break-out areas</h3>
+                                    <h3 class="pricing__benefit headline-3"><img class="pricing__icon-check"
+                                            src="assets/Iconex/CheckedIcon.png" alt="">Thousands
+                                        of locations</h3>
+                                    <h3 class="pricing__benefit headline-3"><img class="pricing__icon-check"
+                                            src="assets/Iconex/CheckedIcon.png" alt="">Global
+                                        transport hubs</h3>
+                                    <h3 class="pricing__benefit headline-3"><img class="pricing__icon-check"
+                                            src="assets/Iconex/CheckedIcon.png" alt="">24/7
+                                        Support Online</h3>
+                                </div>
+                                <button class="button button--xl col"
+                                    style="--col-xl: 12; --col-md: 12; --col-xs: 12;">Start your free trial</button>
+                            </div>
+                            <div class="pricing-table__2 row">
+                                <div class="pricing__price row col" style="--col-xl: 12; --col-md: 12; --col-xs: 12;">
+                                    <h4 class="pricing__type headline-4 col"
+                                        style="--col-xl: 8; --col-md: 8; --col-xs: 8;">
+                                        Startup
+                                    </h4>
+                                    <h2 class="pricing-price__perMonth headline-2 col"
+                                        style="--col-xl: 8; --col-md: 8; --col-xs: 8;">
+                                        $<span class="pricing__number display-2">49</span>/mo</h2>
+                                    <div class="pricing__paragraph paragraph-2 col"
+                                        style="--col-xl: 7; --col-md: 12; --col-xs: 12;">
+                                        <p>Best for new startups or businesses
+                                            with occasional in-person sales</p>
+                                    </div>
+                                </div>
+                                <div class="pricing__item col" style="--col-xl: 8; --col-md: 12; --col-xs: 12;">
+                                    <h3 class="pricing__benefit headline-3"><img class="pricing__icon-check"
+                                            src="assets/Iconex/CheckedIcon.png" alt="">Fully-furnished and serviced</h3>
+                                    <h3 class="pricing__benefit headline-3"><img class="pricing__icon-check"
+                                            src="assets/Iconex/CheckedIcon.png" alt="">Access
+                                        break-out areas</h3>
+                                    <h3 class="pricing__benefit headline-3"><img class="pricing__icon-check"
+                                            src="assets/Iconex/CheckedIcon.png" alt="">Thousands
+                                        of locations</h3>
+                                    <h3 class="pricing__benefit headline-3"><img class="pricing__icon-check"
+                                            src="assets/Iconex/CheckedIcon.png" alt="">Global
+                                        transport hubs</h3>
+                                    <h3 class="pricing__benefit headline-3"><img class="pricing__icon-check"
+                                            src="assets/Iconex/CheckedIcon.png" alt="">24/7
+                                        Support Online</h3>
+                                </div>
+                                <button class="button button--xl col"
+                                    style="--col-xl: 12; --col-md: 12; --col-xs: 12;">Start
+                                    your free trial</button>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="pricing__union" src="assets/UnionPricing.png" alt="">
+                </div>
+            </section>
+        </div>
+        <div class="background-2">
+            <section class="cta">
+                <div class="container cta__container">
+                    <div class="cta__title row">
+                        <h2 class="display-3 col" style="--col-xl: 8; --col-md: 8; --col-xs: 8;">Find your
+                            perfect
+                            <span class="title__inline">workspace.</span>
+                        </h2>
+                        <div class="cta__paragraph headline-3 col" style="--col-xl: 8; --col-md: 8; --col-xs: 8;">
+                            <p>Whether you’re a team of one, a growing startup or a Fortune 500 company –
+                                we have flexible solutions for all the ways you work.</p>
+                        </div>
+                    </div>
+                    <button class="button button--lg">Talk to an expert</button>
+                </div>
+            </section>
+        </div>
+        <div class="background-1">
+            <section class="review">
+                <div class="container review__container">
+                    <div class="review__row row">
+                        <div class="review__title row">
+                            <h2 class="display-3 col" style="--col-xl: 12; --col-md: 12; --col-xs: 12;">What our
+                                clients are
+                                saying about us</h2>
+                            <div class="review__paragraph headline-3 col"
+                                style="--col-xl: 12; --col-md: 12; --col-xs: 12;">
+                                <p>Customer satisfaction is a primary goal for our company</p>
+                            </div>
+                        </div>
+                        <div class="card col" style="--col-xl: 12; --col-md: 10; --col-xs: 8;">
+                            <div class="review-card__row row">
+                                <div class="review__card col" style="--col-xl: 4; --col-md: 4; --col-xs: 4;">
+                                    <div class="review__content">
+                                        <img class="review__img" src="assets/Avatar1.png" alt="">
+                                        <div class="review-card__title">
+                                            <h3 class="review__name headline-3">Monica Smith</h3>
+                                            <div class="review__job paragraph-2">
+                                                <p>Web Designer</p>
+                                            </div>
+                                        </div>
+                                        <img src="assets/Stars.png" alt="">
+                                        <div class="review__description paragraph-1">
+                                            <p>Overall experience is awesome!! I'm a visual thinker, and I couldn't
+                                                function
+                                                without an office like this.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="review__card col" style="--col-xl: 4; --col-md: 4; --col-xs: 4;">
+                                    <div class="review__content">
+                                        <img class="review__img" src="assets/Avatar2.png" alt="">
+                                        <div class="review-card__title">
+                                            <h3 class="review__name headline-3">Vincent Smith</h3>
+                                            <div class="review__job paragraph-2">
+                                                <p>Web Designer</p>
+                                            </div>
+                                        </div>
+                                        <img src="assets/Stars.png" alt="">
+                                        <div class="review__description paragraph-1">
+                                            <p>Overall experience is awesome!! I'm a visual thinker, and I couldn't
+                                                function
+                                                without an office like this.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="review__card col" style="--col-xl: 4; --col-md: 4; --col-xs: 4;">
+                                    <div class="review__content">
+                                        <img class="review__img" src="assets/Avatar3.png" alt="">
+                                        <div class="review-card__title">
+                                            <h3 class="review__name headline-3">Stella Smith</h3>
+                                            <div class="review__job paragraph-2">
+                                                <p>Web Designer</p>
+                                            </div>
+                                        </div>
+                                        <img src="assets/Stars.png" alt="">
+                                        <div class="review__description paragraph-1">
+                                            <p>Overall experience is awesome!! I'm a visual thinker, and I couldn't
+                                                function
+                                                without an office like this.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img class="review__union" src="assets/UnionReview.png" alt="">
+                </div>
+            </section>
+        </div>
+        <div class="background-3">
+            <footer class="footer">
+                <div class="container footer__container">
+                    <div class="footer__row row">
+                        <div class="footer-info__row row">
+                            <div class="footer__logo col" style="--col-xl: 2; --col-md: 2; --col-xs: 2;">
+                                <img src="assets/Logo2.png" alt="">
+                                <div class="footer-logo__text">
+                                    <p>Pollock</p>
+                                </div>
+                            </div>
+                            <div class="footer__company col" style="--col-xl: 2; --col-md: 2; --col-xs: 2;">
+                                <h3 class="footer__heading headline-3">Company</h3>
+                                <div class="footer__about link">
+                                    <p>About</p>
+                                </div>
+                                <div class="footer__work link">
+                                    <p>Work</p>
+                                </div>
+                                <div class="footer__career link">
+                                    <p>Careers</p>
+                                </div>
+                                <div class="footer__pricing link">
+                                    <p>Pricing</p>
+                                </div>
+                                <div class="footer__blog link">
+                                    <p>Blog</p>
+                                </div>
+                            </div>
+                            <div class="footer__service col" style="--col-xl: 2; --col-md: 2; --col-xs: 2;">
+                                <h3 class="footer__heading headline-3">Services</h3>
+                                <div class="footer__branding link">
+                                    <p>Branding</p>
+                                </div>
+                                <div class="footer__websites link">
+                                    <p>Websites</p>
+                                </div>
+                                <div class="footer__development link">
+                                    <p>Development</p>
+                                </div>
+                                <div class="footer__strategy link">
+                                    <p>Strategy</p>
+                                </div>
+                                <div class="footer__platform link">
+                                    <p>Platforms</p>
+                                </div>
+                            </div>
+                            <div class="footer__contact col" style="--col-xl: 2; --col-md: 2; --col-xs: 2;">
+                                <h3 class="footer__heading headline-3">Contact</h3>
+                                <div class="footer__helpDesk link">
+                                    <p>Help Desk</p>
+                                </div>
+                                <div class="footer__docs link">
+                                    <p>Docs</p>
+                                </div>
+                                <div class="footer__ticket link">
+                                    <p>Open a Ticket</p>
+                                </div>
+                                <div class="footer__chat link">
+                                    <p>Chat</p>
+                                </div>
+                                <div class="footer__forum link">
+                                    <p>Forum</p>
+                                </div>
+                            </div>
+                            <div class="footer__newsletter col" style="--col-xl: 4; --col-md: 4; --col-xs: 4;">
+                                <h3 class="footer__heading headline-3">Newsletter</h3>
+                                <div class="footer__description paragraph-2">
+                                    <p>Subscribe to our newsletter to keep up to date on our marketing, website, design
+                                        services, and tips.</p>
+                                </div>
+                                <form class="footer__form" action="">
+                                    <input class="footer__email" type="text" placeholder="Enter mail">
+                                    <button class="button button--md">Submit</button>
+                                    <div class="footer__warning paragraph-3">
+                                        <p>We hate spam as much as you do. We will never, ever send you such emails.
+                                        </p>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="footer__copyright">
+                            <hr>
+                            <div class="footer-copyright__info">
+                                <div class="footer-copyright__text paragraph-2">
+                                    <p>© 2022 Pollock LLC. All Rights Reserved. <span class="footer__inline">Terms &
+                                            Conditions. Privacy
+                                            Policy.</span></p>
+                                </div>
+                                <img class="footer__social" src="assets/Social.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
     </div>
 </body>
 

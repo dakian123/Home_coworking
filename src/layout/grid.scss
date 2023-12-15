@@ -1,0 +1,21 @@
+.row {
+    display: flex;
+}
+
+.col {
+    width: calc((var(--col-xs) / var(--grid)) * 100%);
+
+}
+
+
+@media (min-width:768px) {
+    .col {
+        width: calc((var(--col-md) / var(--grid)) * 100%);
+    }
+}
+
+@media (min-width:1200px) {
+    .col {
+        width: calc((var(--col-xl) / var(--grid)) * 100%);
+    }
+}

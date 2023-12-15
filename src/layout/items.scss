@@ -1,0 +1,43 @@
+.items__container {
+    margin-top: 120px;
+}
+
+.items__row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.items__group-1 {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+
+}
+
+.content__group-2 {
+    display: flex;
+    align-items: center;
+
+}
+
+.items__title {
+    padding: 100px 30px;
+    text-align: unset;
+}
+
+.items__content {
+    padding: 100px 30px 100px 0;
+}
+
+.items__text {
+    padding-left: 30px;
+}
+
+.items-text__title {
+    padding-bottom: 10px;
+}
+
+.items-text__description {
+    text-align: unset;
+}

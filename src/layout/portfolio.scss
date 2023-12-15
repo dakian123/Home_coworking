@@ -1,0 +1,46 @@
+.portfolio__row {
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio__container {
+    padding-top: 120px;
+    position: relative;
+}
+
+.portfolio__title {
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.portfolio__image {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio__image {
+    padding-bottom: 30px;
+}
+
+.portfolio-image__city {
+    color: var(--action-blue);
+}
+
+.portfolio-image__group-1 {
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
+
+.portfolio-image__group-2 {
+    padding-bottom: 50px;
+}
+
+.portfolio-image__group-3 {
+    padding-right: 30px;
+}
+
+.portfolio__union {
+    position: absolute;
+    top: 810px;
+    right: 1310px;
+}

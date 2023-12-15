@@ -1,0 +1,100 @@
+.pricing__container {
+    padding-top: 300px;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 450px;
+}
+
+.pricing__box {
+    position: absolute;
+    top: 500px;
+}
+
+.pricing__union {
+    position: absolute;
+    left: 1180px;
+    top: 650px;
+}
+
+.pricing__title {
+    padding-bottom: 100px;
+}
+
+.pricing-title__heading {
+    padding-bottom: 30px;
+}
+
+.pricing-title__paragraph {
+    text-align: center;
+    color: var(--text-text);
+}
+
+.pricing__tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 -16px;
+    padding-bottom: 100px;
+}
+
+.pricing-tag__item {
+    padding: 0 16px;
+}
+
+[class^="pricing-table"] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid var(--Lines-Gray-Line);
+    background: var(--bg-white);
+}
+
+.pricing-table__1 {
+    margin-right: 15px;
+}
+
+.pricing-table__2 {
+    margin-left: 15px;
+}
+
+.pricing__price {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.pricing-price__perMonth {
+    padding: 20px 0 10px 0;
+    color: var(--text-heading);
+}
+
+.pricing__type {
+    padding-top: 35px;
+    color: var(--action-blue);
+}
+
+.pricing__paragraph {
+    color: #696871;
+}
+
+.pricing__price {
+    padding-bottom: 30px;
+}
+
+.pricing__item {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-bottom: 40px;
+}
+
+.pricing__benefit {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.pricing__icon-check {
+    padding-right: 10px;
+}

@@ -1,0 +1,54 @@
+.review__container {
+    padding-top: 120px;
+    position: relative;
+    padding-bottom: 120px;
+}
+
+.review__union {
+    position: absolute;
+    right: 1320px;
+    top: 320px;
+}
+
+.review__title {
+    flex-direction: column;
+}
+
+.review__paragraph {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.review__row {
+    flex-direction: column;
+}
+
+.review__card {
+    border-radius: 20px;
+    background: var(--bg-white);
+}
+
+.review__content {
+    padding: 35px;
+}
+
+.review-card__title {
+    padding: 10px 0 20px 0;
+    color: var(--primary-color-black);
+}
+
+.review__job {
+    padding-top: 5px;
+}
+
+.review__description {
+    padding-top: 30px;
+}
+
+.review__card {
+    margin: 0 15px;
+}
+
+.review-card__row {
+    margin: 0 -30px;
+}
