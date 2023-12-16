@@ -6,6 +6,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: var(--bgbg-light-alt);
+    padding: 0 60px;
 }
 
 .items__group {
@@ -18,7 +20,7 @@
 }
 
 .items__title {
-    padding: 100px 30px;
+    padding-right: 30px;
     text-align: unset;
 }
 

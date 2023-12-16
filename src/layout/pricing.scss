@@ -3,25 +3,19 @@
     flex-direction: column;
 }
 
-.pricing {
+.pricing__box {
     position: relative;
-}
-
-.pricing__background {
-    padding: 120px var(--grid--container--width) 700px;
-    position: absolute;
-    z-index: -1;
-    top: 120px;
 }
 
 .pricing__union {
     position: absolute;
-    left: 1180px;
-    top: 650px;
+    top: 130px;
+    left: 1050px;
 }
 
 .pricing__title {
     padding-bottom: 100px;
+
 }
 
 .pricing__title-heading {

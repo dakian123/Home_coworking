@@ -44,16 +44,8 @@
   height: 100%;
 }
 
-.background-1 {
+.background--light {
   background-color: var(--bgbg-light-alt);
-}
-
-.background-2 {
-  background-color: var(--bg-white);
-}
-
-.background-3 {
-  background-color: var(--bg-gray);
 }
 
 body {
@@ -164,16 +156,6 @@ body {
   color: var(--text-heading);
 }
 
-.hero__play-text {
-  color: var(--text-heading);
-  text-align: center;
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 1.6;
-  letter-spacing: -0.3px;
-  text-transform: uppercase;
-}
-
 .gallery__link-text {
   color: var(--action-purple);
   font-size: 15px;
@@ -219,6 +201,10 @@ body {
     width: calc(var(--col-xl) / var(--grid) * 100%);
   }
 }
+.hero {
+  background-color: var(--bgbg-light-alt);
+}
+
 .hero__container {
   padding-top: 136px;
   padding-bottom: 350px;
@@ -237,8 +223,8 @@ body {
 
 .hero__play {
   display: flex;
-  justify-content: center;
   align-items: center;
+  padding-left: 10px;
 }
 
 .hero__group {
@@ -301,6 +287,40 @@ body {
 
 .hero__image-4 {
   padding-left: 10px;
+}
+
+.hero__play-btn {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: var(--bg-white);
+  position: relative;
+}
+
+.hero__play-btn:hover {
+  filter: drop-shadow(0px 5px 20px rgba(18, 2, 47, 0.15));
+}
+
+.hero__play-btn-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero__play-text {
+  padding-left: 7px;
+  color: var(--text-heading);
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: -0.3px;
+  text-transform: uppercase;
+}
+
+.about {
+  background-color: var(--bgbg-light-alt);
 }
 
 .about__container {
@@ -412,6 +432,14 @@ body {
   padding-bottom: 120px;
 }
 
+.cta {
+  background-color: var(--bg-white);
+}
+
+.gallery {
+  background-color: var(--bg-white);
+}
+
 .gallery__row {
   justify-content: center;
   align-items: center;
@@ -483,10 +511,34 @@ body {
   text-align: unset;
 }
 
-.gallery__arrow {
+.gallery__arrow-group {
   display: flex;
   padding-top: 100px;
   padding-left: 10px;
+}
+
+.gallery__arrow {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: var(--bg-white);
+  position: relative;
+  border: 1px solid var(--lines-gray-line);
+}
+
+.gallery__arrow-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.gallery__arrow--left {
+  margin-right: 15px;
+}
+
+.gallery__arrow:hover {
+  filter: drop-shadow(0px 20px 50px rgba(79, 119, 255, 0.2));
 }
 
 .items__container {
@@ -497,6 +549,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--bgbg-light-alt);
+  padding: 0 60px;
 }
 
 .items__group {
@@ -509,7 +563,7 @@ body {
 }
 
 .items__title {
-  padding: 100px 30px;
+  padding-right: 30px;
   text-align: unset;
 }
 
@@ -565,6 +619,14 @@ body {
   align-items: center;
 }
 
+.logo {
+  background-color: var(--bg-white);
+}
+
+.portfolio {
+  background-color: var(--bg-white);
+}
+
 .portfolio__row {
   flex-direction: column;
   align-items: center;
@@ -617,21 +679,14 @@ body {
   flex-direction: column;
 }
 
-.pricing {
+.pricing__box {
   position: relative;
-}
-
-.pricing__background {
-  padding: 120px var(--grid--container--width) 700px;
-  position: absolute;
-  z-index: -1;
-  top: 120px;
 }
 
 .pricing__union {
   position: absolute;
-  left: 1180px;
-  top: 650px;
+  top: 130px;
+  left: 1050px;
 }
 
 .pricing__title {
@@ -717,6 +772,10 @@ body {
   padding-right: 10px;
 }
 
+.review {
+  background-color: var(--bgbg-light-alt);
+}
+
 .review__container {
   padding-top: 120px;
   position: relative;
@@ -799,6 +858,10 @@ body {
   margin-top: 70px;
 }
 
+.service {
+  background-color: var(--bg-white);
+}
+
 .item {
   color: var(--text-text);
   font-size: 15px;
@@ -809,7 +872,7 @@ body {
   text-decoration: none;
 }
 
-.item--highlight {
+.item:hover {
   color: var(--text-heading);
 }
 
@@ -938,6 +1001,10 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.6;
+}
+
+.footer {
+  background-color: var(--bg-gray);
 }
 
 .footer__row {
