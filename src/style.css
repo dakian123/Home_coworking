@@ -1,6 +1,6 @@
 :root {
   --action-blue: #4F77FF;
-  --actiong-reen: green;
+  --action-green: #34c635;
   --action-red: red;
   --text-heading: #2D3958;
   --text-text: #7B88A8;
@@ -142,20 +142,6 @@ body {
   letter-spacing: -0.3px;
 }
 
-.item {
-  color: var(--text-text);
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 1.6;
-  letter-spacing: -0.3px;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-.item-home {
-  color: var(--text-heading);
-}
-
 .gallery__link-text {
   color: var(--action-purple);
   font-size: 15px;
@@ -184,22 +170,39 @@ body {
 }
 
 .item {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-list__item {
+  list-style-type: none;
+  padding: 0 calc(var(--nav-gap) / 2);
+  position: relative;
   color: var(--text-text);
   font-size: 15px;
   font-weight: 500;
   line-height: 1.6;
   letter-spacing: -0.3px;
   text-transform: uppercase;
-  text-decoration: none;
 }
 
-.item:hover {
+.nav-list__item:hover {
+  color: var(--action-blue);
+}
+
+.nav-list__item.active {
   color: var(--text-heading);
 }
 
-.nav-list__item {
-  list-style-type: none;
-  padding: 0 calc(var(--nav-gap) / 2);
+.nav-list__item.active::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: calc(50% - 5px);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--action-green);
 }
 
 .nav-list {
@@ -229,7 +232,20 @@ body {
 }
 
 .header__bag-icon {
+  position: relative;
+  cursor: pointer;
   padding: 12px 30px 12px 20px;
+}
+
+.header__bag-icon.active::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 33px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--action-red);
 }
 
 .hero {
