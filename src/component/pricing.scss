@@ -33,9 +33,19 @@
 
 .pricing__title-heading {
     padding-bottom: 30px;
+    color: var(--text-heading);
+    text-align: center;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -2px;
 }
 
 .pricing__title-paragraph {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.45;
+    letter-spacing: -1px;
     text-align: center;
     color: var(--text-text);
 }
@@ -50,6 +60,13 @@
 
 .pricing__tag-item {
     padding: 0 16px;
+    color: var(--text-text);
+    text-align: center;
+    font-family: var(--font-secondary);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.55;
+    letter-spacing: -0.3px;
 }
 
 [class^="pricing__table"] {
@@ -78,15 +95,36 @@
 .pricing__price-perMonth {
     padding: 20px 0 10px 0;
     color: var(--text-heading);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.3;
+    letter-spacing: -1px;
+
+    span {
+        font-size: 64px;
+        font-weight: 500;
+        line-height: 1.1;
+        letter-spacing: -2px;
+    }
 }
 
 .pricing__type {
     padding-top: 35px;
     color: var(--action-blue);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.55;
+    letter-spacing: 0.4px;
 }
 
 .pricing__paragraph {
     color: #696871;
+    text-align: center;
+    font-family: var(--font-secondary);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
 }
 
 .pricing__price {
@@ -104,6 +142,11 @@
     padding: 10px 0;
     display: flex;
     align-items: center;
+    color: var(--text-heading);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.45;
+    letter-spacing: -1px;
 }
 
 .pricing__icon-check {

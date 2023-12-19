@@ -15,6 +15,7 @@
     border-radius: 12px;
     border: 1px solid var(--lines-gray-line);
     transition: box-shadow 0.3s;
+    padding: 40px 50px 60px 50px;
 }
 
 .card__item:hover {
@@ -26,15 +27,6 @@
     padding: 42px 90px 38px;
 }
 
-.card__icon {
-    padding: 40px 0 35px 0;
-}
-
-.card__description {
-    padding-top: 20px;
-    padding-bottom: 60px;
-}
-
 .card__title {
     color: var(--primary-color-black);
     text-align: center;
@@ -43,10 +35,11 @@
     font-weight: 400;
     line-height: 1.45;
     letter-spacing: -1px;
+    padding-top: 35px;
+    padding-bottom: 20px;
 }
 
 .card__description {
-    padding: 0 50px 60px;
     color: var(--text-text);
     text-align: center;
     font-family: var(--font-secondary);

@@ -16,6 +16,18 @@
 .portfolio__title {
     padding-bottom: 100px;
     text-align: center;
+    color: var(--text-heading);
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.84px;
+
+    span {
+        background: var(--purple-gradient);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }
 
 .portfolio__group-image {
@@ -29,6 +41,10 @@
 
 .portfolio__image-city {
     color: var(--action-blue);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.45;
+    letter-spacing: -1px;
 }
 
 .portfolio__group-image-1 {

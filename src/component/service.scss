@@ -11,6 +11,13 @@
 
 .service__paragraph {
     padding-top: 30px;
+    color: var(--text-text);
+    text-align: center;
+    font-family: var(--font-secondary);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.55;
+    letter-spacing: -0.3px;
 }
 
 .service__bg {
@@ -25,4 +32,13 @@
 
 .service {
     background-color: var(--bg-white);
+}
+
+.service__title {
+    color: var(--text-heading);
+    text-align: center;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -2px;
 }
